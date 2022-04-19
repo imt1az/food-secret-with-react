@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Bengal Fish Curry",
+    "price": "60",
+    "quantity": 0,
+    "image":"https://cdn.shopify.com/s/files/1/0377/8173/3514/products/bengal-fish-curry_590x.jpg?v=1628460098",
+    "Description": "This is a traditional Bengali Fish recipe from West Bengal, India made with Bass fish with bones in and cooked with delicious spices from East 2 West Supply. The juicy spicy gravy goes very well with white rice and a must try dish."
+  },
+  {
+    "id": 2,
+    "title": "Bengal Chicken Curry",
+    "price": "70",
+     "quantity": 0,
+    "image":"https://cdn.shopify.com/s/files/1/0377/8173/3514/products/chicken-curry-bengali_4c2c3719-36c1-47bb-b152-bf4abb5eba47_590x.jpg?v=1627046814",
+    "Description": "This is a traditional Bengali chicken curry and very flavorful chicken dish pairs perfectly with white rice or roti. Boneless and skinless chicken thigh is prepared with fresh, delicious, flavorful spices from East 2 West Supply."
+  },
+  {
+    "id": 3,
+    "title": "Bhindi (Okra) Aloo Stir Fry-Vegetarian",
+    "price": "30",
+     "quantity": 0,
+    "image":"https://cdn.shopify.com/s/files/1/0377/8173/3514/products/bhindi-stir-fry_6740b3a2-b73a-4af2-b43f-bac7edb015df_590x.jpg?v=1624584107",
+    "Description": "Bhindi (Okra) Aloo Stir Fry is a popular dish through out India. This is a vegetarian dish made with fresh & green Bhindi (Okra) and Potatoes lightly fried in cooking oil."
+  },
+  {
+    "id": 4,
+    "title": "Spinach Paneer-Vegetarian",
+    "price": "20",
+     "quantity": 0,
+    "image":"https://cdn.shopify.com/s/files/1/0377/8173/3514/products/SpinachPaneer_590x.jpg?v=1621994573",
+    "Description": "This is a mouth-watering and delicious vegetarian dish made with spinach, paneer (Indian cottage cheese), green peas, and a very special and fresh spice blend from East 2 West supply. This is a dish that everyone loves"
+  },
+  {
+    "id": 5,
+    "title": "Dahi (Yogurt) Chicken",
+    "price": "100",
+     "quantity": 0,
+    "image":"https://cdn.shopify.com/s/files/1/0377/8173/3514/products/dahi-chicken-curry_590x.jpg?v=1627257560",
+    "Description": "This is a non-veg spicy, tangy, and very flavorful chicken dish pairs perfectly with white rice or roti. Boneless chicken thigh is prepared with plain yogurt and fresh, delicious, flavorful spices from East 2 West Supply. These ingredients are cooked to tender perfection. A must-try!"
+  },
+  {
+    "id": 6,
+    "title": "Chicken Biryani",
+    "price": "200",
+     "quantity": 0,
+    "image":"https://i.pinimg.com/564x/49/ab/d8/49abd868703c1f3a3c196cab07316cd9.jpg",
+    "Description": "This is a non-veg spicy, tangy, and very flavorful chicken dish pairs perfectly with white rice or roti. Boneless chicken thigh is prepared with plain yogurt and fresh, delicious, flavorful spices from East 2 West Supply. These ingredients are cooked to tender perfection. A must-try!"
+  }
+
+]
