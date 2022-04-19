@@ -13,6 +13,7 @@ import Checkout from './Pages/Order/Checkout/Checkout';
 import Thankyou from './Pages/Order/Checkout/Thankyou';
 import Blog from './Pages/Blog/Blog';
 import About from './Pages/Blog/About';
+import ErrorPage from './Pages/Shared/ErrorPage';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
        <Checkout></Checkout>
      </RequireAuth>}></Route>
      <Route path='/thankyou' element={<Thankyou></Thankyou>}></Route>
+     <Route path='*' element={<ErrorPage></ErrorPage>}></Route>
      </Routes>
      
      <Footer></Footer>
