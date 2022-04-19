@@ -5,6 +5,9 @@ import { useAuthState, useSendPasswordResetEmail, useSignInWithEmailAndPassword 
 import {Link, useLocation, useNavigate} from "react-router-dom"
 import auth from '../../firebase.init';
 import Social from '../Shared/Social/Social';
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(
@@ -51,7 +54,7 @@ const Login = () => {
     const resetEmail = async()=>{
       const email = emailRef.current.value;
       await sendPasswordResetEmail(email);
-      alert('Sent email');
+      toast('Sent email');
     }
     return (
         <div>
@@ -62,12 +65,13 @@ const Login = () => {
                 <img
                   src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
                   className="w-full"
-                  alt="Sample image"
+                  alt=""
                 />
               </div>
               <div className="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
                 <form onSubmit={handleUserSignIn}>
                 <Social></Social>
+                <ToastContainer></ToastContainer>
   
                   <div className="mb-6">
                     <input
