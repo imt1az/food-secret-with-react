@@ -116,7 +116,7 @@ const Login = () => {
                       {errorElement}
                     </div>
                     
-                    <button onClick={resetEmail} className="text-blue-800"><p>Forgot password?</p></button>
+                    {/* <button onClick={resetEmail} className="text-blue-800"><p>Forgot password?</p></button> */}
                   </div>
                   <div>
           <p>{error?error.message : ''}</p>
